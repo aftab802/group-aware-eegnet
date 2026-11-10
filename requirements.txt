@@ -1,0 +1,10 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+scikit-learn>=1.4
+mne>=1.6
+pyedflib>=0.1.36
+tensorflow>=2.16
+matplotlib>=3.7
+pytest>=7.4
+edfio>=0.4

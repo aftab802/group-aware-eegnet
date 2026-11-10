@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/
+data/
+mne_data/
+*.h5
+*.keras
+*.pkl
+*.npz
+features_39.csv
+.ipynb_checkpoints/
