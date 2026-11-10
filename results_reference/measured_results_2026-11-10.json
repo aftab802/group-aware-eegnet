@@ -1,0 +1,5 @@
+{"conv1d": {"L0": 0.6465, "L2": 0.6831, "as_executed": 0.6953, "L0_subjects": {"train": 73, "val": 14, "test": 22}},
+ "csp_cnn": {"L0": {"test": 0.5939, "train": 0.7085, "params_head": 9473}, "L2": {"test": 0.6133, "train": 0.6619}},
+ "eegnet_L0": {"test": 0.7468, "params": 6466, "subjects": {"train": 47, "val": 9, "test": 14}},
+ "fourclass": {"trial_50ep": {"test": 0.6266, "train": 0.745}, "trial_100ep": {"test": 0.6463, "train": 0.84}, "L0_100ep": {"test": 0.5833, "train": 0.77, "subjects": {"train": 98, "test": 11}, "recall": [0.6017, 0.5238, 0.5065, 0.7013]}, "params": 15017444},
+ "env": "Google Colab, NVIDIA T4, TensorFlow 2.21, 10 Nov 2026"}

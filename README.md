@@ -39,7 +39,7 @@ data, `train_test_subject_overlap` (0 under the leakage-safe protocol).
 
 | Result in the paper | Value | Source of the number | Re-run with this repository? |
 |---|---|---|---|
-| EEGNet held-out test accuracy | 75.16 % | Original notebook, output preserved in `original_notebooks/` | Same configuration; not re-run here (GPU runs differ slightly between machines) |
+| EEGNet held-out test accuracy | 75.16 % | Original notebook, output preserved in `original_notebooks/` | **Re-run: 74.68 %** (Colab T4, same split) |
 | Parameters | 6,466 (6,306 trainable) | Original notebook | Verified: `tests/test_models.py` |
 | Split | 47 / 9 / 14 subjects | Original notebook | Same GroupShuffleSplit, random_state 42 |
 
